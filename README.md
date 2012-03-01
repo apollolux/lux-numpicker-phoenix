@@ -4,7 +4,7 @@ This is a small app made to draw a set of (pseudo-)random numbers from a field o
 
 # Compilation
 
-Compiling this app requires the [http://byuu.org/phoenix](phoenix GUI wrapper by byuu); future versions of this code may include phoenix, but I haven't yet decided.
+Compiling this app requires the [http://byuu.org/phoenix](phoenix GUI wrapper by byuu); future versions of this code may include phoenix, but I haven't yet decided. Please be aware that the compilation process has only been confirmed to work on a MinGW-based environment.
 
 1. Download this code into some directory.
 2. Download [http://byuu.org/phoenix](phoenix) and unpack it to the parent directory of this code (ie, if this code is in somefolder/numpicker put phoenix in somefolder). If you put phoenix somewhere else please remember to modify the makefile to point to the right location.
@@ -12,7 +12,7 @@ Compiling this app requires the [http://byuu.org/phoenix](phoenix GUI wrapper by
 
 # Installation
 
-So far there's no installation; the compiled lux-numpicker is a standalone executable and can be run from anywhere. So far it's only been tested on Windows, but there will eventually be a makefile that works on Linux.
+So far there's no installation; the compiled lux-numpicker is a standalone executable and can be run from anywhere. The pre-compiled binary has only been tested on Windows 7 64-bit, so if it doesn't work for you please either compile your own or wait for a 32-bit binary. So far it's only been tested on Windows, but there will eventually be a makefile that works on Linux.
 
 # Usage
 
