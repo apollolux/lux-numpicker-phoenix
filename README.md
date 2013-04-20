@@ -4,10 +4,10 @@ This is a small app made to draw a set of (pseudo-)random numbers from a field o
 
 # Compilation
 
-Compiling this app requires the [http://byuu.org/phoenix](phoenix GUI wrapper by byuu); future versions of this code may include phoenix, but I haven't yet decided. Please be aware that the compilation process has only been confirmed to work on a MinGW-based environment.
+Compiling this app requires the [phoenix GUI wrapper by byuu](http://byuu.org/phoenix); future versions of this code may include phoenix, but I haven't yet decided. Please be aware that the compilation process has only been confirmed to work on a MinGW-based environment.
 
 1. Download this code into some directory.
-2. Download [http://byuu.org/phoenix](phoenix) and unpack it to the parent directory of this code (ie, if this code is in somefolder/numpicker put phoenix in somefolder). If you put phoenix somewhere else please remember to modify the makefile to point to the right location.
+2. Download [phoenix](http://byuu.org/phoenix) and unpack it to the parent directory of this code (ie, if this code is in somefolder/numpicker put phoenix in somefolder). If you put phoenix somewhere else please remember to modify the makefile to point to the right location.
 3. Navigate to this code's directory and run <tt>make</tt>
 
 # Installation
